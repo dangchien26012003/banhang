@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.wapper {
+    width: 1210px;
+    margin: 0 auto
+}
+
+.list-product .product{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-product .product li {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 20px;
+    border: 1px solid #ccc;
+}
+
+.list-product .product li .img {
+    height: 150px;
+    padding: 5px
+}
+
+/* .list-product .product li .img img {
+    width: 1000px
+} */
+
+.list-product .product li .img img {
+    max-width: 100%;
+    max-height: 150px;
+}
+
+.list-product .product li .info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-product .product li .info .price, .list-product .product li .info .name {
+    width: 50%;
+    padding: 0 10px
+}
+
+.list-product .product li .info .name span {
+    display: block;
+    text-align: right;
+}
+
+.list-product .product li .button {
+    margin: 0 auto;
+}
+
+.giohang table{
+    width: 100%;
+}
+.giohang table tr {
+    height: 50px;
+}
+
+.giohang table td,.giohang table th {
+    border: 1px solid;
+    text-align: center;
+}
+
+.giohang .img img {
+    height: 90px;
+}
